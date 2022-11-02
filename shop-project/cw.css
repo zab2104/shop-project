@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    line-height: 100px;
+}
+
+section {
+    background-color: grey;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+article {
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+    width: calc(33.3% - 20px);
+}
+
+.a4 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    min-width: 100px;
+    max-width: 400px;
+}
